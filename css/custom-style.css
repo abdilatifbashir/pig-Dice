@@ -14,13 +14,16 @@ body{background-color: 	#33FCFF;}
 }
 #players-row{
 	text-align: center;
+	float:right;
+	padding-top:0px;
 }
-#current-score{color:#33FCFF;
+#current-score{color:black;
 				font-style: bold;
 				font-size: 20px;}
 
 
 
-#total-score{color:#33FCFF;
+#total-score{color:black;
 				font-style: bold;
 				font-size: 20px;}
+#imggif{bakground-color:black;}

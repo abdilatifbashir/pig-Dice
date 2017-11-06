@@ -42,30 +42,32 @@
               <li>the player who obtain 100 points or more is the winner</li>
         </ul>
       </div>
-      <div class="col-md-6">
-        <div style="background-color:#33FCFF;" class="well" >
-          <img src="images/face2.png" height="80px" width="80px" style="margin-left: 40%;">
+      <div class="col-md-6" id="imggif">
+        
+          <img src="images/imagesample.gif" width="300px" height="80px" style="float:right;">
+      
+
         </div>
+      
         <div class="row" id="players-row">
           
           <div class="col-md-6">
-            <h3 style="color:#33FCFF;">player1</h3>
-            <div id="current-score">curent score:</div>
-            <div id="total-score">total score:</div>
+            <h3 style="color:dogerblue;">player1</h3>
+            <div>curent score:<span id="current-score-p1"></span></div>
+            <div id="total-score-p1">total score:<span id="total-score-p1"></span></div>
+            <button type="button" id="roll1" class="btn btn-success btn-lg" name="button">roll</button>
+            <button type="button" id="hold1" class="btn btn-success btn-lg" name="button">hold</button>
+
           </div>
           <div class="col-md-6">
-            <h3 style="color:#33FCFF;">player2</h3>
-            <div id="current-score">curent score:</div>
-            <div id="total-score">total score:</div>
+            <h3 style="color:black;">player2</h3>
+            <div id="current-score-p2">curent score:</div>
+            <div id="total-score-p2">total score:</div>
+            <button type="button" id="roll2" class="btn btn-success btn-lg" name="button">roll</button>
+            <button type="button" id="hold2" class="btn btn-success btn-lg" name="button">hold</button>
+
           </div>
-          <div class="col-md-6">
-            <button type="button" id="roll" class="btn btn-success btn-lg" name="button">roll</button>
-            
-          </div>
-          <div class="col-md-6">
-            <button type="button" id="hold" class="btn btn-success btn-lg" name="button">hold</button>
-            
-          </div>
+          
 
         </div>
       </div>
