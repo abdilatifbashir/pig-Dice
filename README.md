@@ -1,6 +1,6 @@
 
 # PIG DICE GAME
-Author: [Apiut Toel](toelapiut7@gmail.com)
+Author:abdilatif bashir
 ## Description
 A web application that generates a number randomly and returns it with specific instructions. For instance if person one rolls a dice it will show the random number from 1 to 6 but if you are unfortunate and get a 1 you are awarded a 0 and the chance given to the second player:
 ## Rules
@@ -22,3 +22,4 @@ A web application that generates a number randomly and returns it with specific 
 Make sure you have git installed. On the terminal, navigate to your workspace directory and run
 ## Contributing
 pull requests are encouraged
+license MIT
