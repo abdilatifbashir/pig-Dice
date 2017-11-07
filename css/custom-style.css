@@ -21,7 +21,7 @@ body{background-color: 	#33FCFF;}
 
 #game-rules{
 	display:block;
-	border:5px solid black;
+	border:5px solid #33FCFF;
 	margin-bottom:5px;
 }
 #para{
