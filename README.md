@@ -4,7 +4,8 @@ Author:abdilatif bashir
 ## Description
 A web application that generates a number randomly and returns it with specific instructions. For instance if person one rolls a dice it will show the random number from 1 to 6 but if you are unfortunate and get a 1 you are awarded a 0 and the chance given to the second player:
 ## Rules
- + Two players will compete and the first player to score 100 or more points is the winner.
+ + Two players will compete .
+ + each must play recursively until he exhaust his turn,thereafter the next player taker and play recursively as well until he finishes/lose.
 
 + If a player rolls 1, they score nothing and it becomes the next players turn.
 
