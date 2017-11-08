@@ -44,7 +44,7 @@ $(document).ready(function(){
                   scores =[];
               playerone.current_roll=0;
               playerone.totalscore=0;
-             alert("ach !! you rolled 1");
+             alert("ach !! you rolled 1,your turn is over.");
           $("#current-score-p1").text(playerone.current_roll);
           $("#total-score-p1").text(playerone.totalscore);   
       }else if(playerone.current_roll==6){ 
@@ -54,7 +54,7 @@ $(document).ready(function(){
                   scores =[];
         playerone.current_roll=0;
         playerone.totalscore=0;
-         alert("ach!! you rolled 6."); 
+         alert("ach!! you rolled 6,your turn is over."); 
 
 
                    $("#current-score-p1").text(playerone.current_roll);
@@ -85,7 +85,7 @@ $(document).ready(function(){
                   scores =[];
               playertwo.current_roll=0;
               playertwo.totalscore=0;
-             alert("ach!!! you rolled 1.");
+             alert("ach!!! you rolled 1,your turn is over.");
           $("#current-score-p2").text(playertwo.current_roll);
           $("#total-score-p2").text(playertwo.totalscore);   
       }else if(playertwo.current_roll==6){ 
@@ -95,7 +95,7 @@ $(document).ready(function(){
                   scores =[];
         playertwo.current_roll=0;
         playertwo.totalscore=0;
-         alert("ach1111 you rolled 6"); 
+         alert("ach1111 you rolled 6,your turn is over"); 
 
 
                    $("#current-score-p2").text(playertwo.current_roll);
